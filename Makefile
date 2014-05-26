@@ -24,7 +24,6 @@ t1:
 	7z a t.7z t
 	7z x t.7z -oout -ir"!a/*"
 
-
 clean:
 	rm -rf out
 	rm -rf a
